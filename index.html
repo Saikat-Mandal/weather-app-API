@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <!-- navbar here  -->
+    <header>
+        <nav>
+            <img class="logo" src="/images/weather-app.png" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <form role="search">
+                <input class="fInput" type="search" placeholder="city...">
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </nav>
+    </header>
+
+
+    <!-- weather here  -->
+    <main>
+        <h1 class="main-heading">Weather for <span class="cityName"></span></h1>
+        <div class="allDivs">
+
+            <div class="box1 box">
+                <h2 class="heading-1 div1-heading">Temparatures</h2>
+                <h1 class="temp-display">temp</h1>
+                <p>Min temparature : <span class="mintemp-display"></span></p>
+                <p>Max temparature : <span class="maxtemp-display"></span></p>
+                <h2 class="bedding-2 div1-bedding">Wind info</h2>
+            </div>
+
+            <div class="box1 box">
+                <h2 class="heading-1 div1-heading">Humidity info</h2>
+                <h1 class="humidity-display">temp</h1>
+                <p class="feels-like"> </p>
+                <p class="pressure"></p>
+                <h2 class="bedding-1 div1-bedding">Wind info</h2>
+            </div>
+
+            <div class="box1 box">
+                <h2 class="heading-2 div1-heading">Wind info</h2>
+                <h1 class="wind-speed">temp</h1>
+                <p class="degree"></p>
+                <h2 class="bedding-1 div1-bedding">Wind info</h2>
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

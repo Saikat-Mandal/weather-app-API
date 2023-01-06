@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  height: 3.5rem;
+}
+
+nav {
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+ul {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+ul li {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  margin-right: 2rem;
+}
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(153, 0, 255);
+}
+
+main {
+  min-height: 100vh;
+}
+.main-heading {
+  text-align: center;
+  margin-top: 5rem;
+}
+.allDivs {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20rem;
+  width: 22rem;
+  line-height: 1.5;
+  border: 2px solid rgb(153, 0, 255);
+}
+.div1-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: auto;
+}
+.heading-1 {
+  padding: 1rem 0 1rem 0;
+  border-bottom: 2px solid rgb(153, 0, 255);
+}
+.heading-2 {
+  padding: 1rem 0 1rem 0;
+  color: white;
+  background-color: rgb(153, 0, 255);
+}
+.div1-bedding {
+  padding: 1rem 0 1rem 0;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+
+.bedding-2 {
+  border-top: 2px solid rgb(153, 0, 255);
+}
+.bedding-1 {
+  color: white;
+  background-color: rgb(153, 0, 255);
+}
+.fInput {
+  padding: 0.3rem;
+}
+
+.btn {
+  padding: 0.4em 1em 0.4em 1em;
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+}
